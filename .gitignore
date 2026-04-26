@@ -1,0 +1,6 @@
+backend/.venv/
+backend/support_logs.sqlite3
+backend/uploads/
+backend/app/__pycache__/
+frontend/node_modules/
+frontend/dist/

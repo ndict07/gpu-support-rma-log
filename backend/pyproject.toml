@@ -1,0 +1,15 @@
+[project]
+name = "gpu-support-log-api"
+version = "0.1.0"
+description = "FastAPI backend for GPU customer support RMA log search."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "python-multipart>=0.0.20",
+    "pydantic>=2.0.0",
+    "sqlalchemy>=2.0.0",
+    "uvicorn[standard]>=0.34.0",
+]
+
+[tool.uv]
+package = false
